@@ -13,45 +13,67 @@
 <body>
 
   <header class="header">
-    <div class="header-content">
-      <div class="header-first">
-        <h1>Hello!<br>I'm Lanting.</h1>
-        <h2 class="header-subheading">
-          <span class="dot">&bull;</span> pharmacoepidemiologist<br>
-          <span class="dot">&bull;</span> incoming assistant professor, <a href="https://pharmacy.ufl.edu/">UF College of Pharmacy</a><br>
-          <span class="dot">&bull;</span> <a href="mailto:layang@health.ucsd.edu">layang@health.ucsd.edu</a><br>
-        </h2>
-      </div>
-      <div class="header-second">
-        <div class="nav-label">navigation</div>
-        <div class="header-nav">
-          <div class="header-nav-item">
-            <span class="nav-letter">a</span>
-            <a href="#about" class="nav-link">About Me</a>
-          </div>
-          <div class="header-nav-item">
-            <span class="nav-letter">b</span>
-            <a href="#research" class="nav-link">My Research</a>
-          </div>
-          <div class="header-nav-item">
-            <span class="nav-letter">c</span>
-            <a href="#posts" class="nav-link">Posts</a>
-          </div>
-          <div class="header-nav-item">
-            <span class="nav-letter">d</span>
-            <a href="#grants" class="nav-link">Grants &amp; Projects</a>
-          </div>
-          <div class="header-nav-item">
-            <span class="nav-letter">e</span>
-            <a href="#contact" class="nav-link">Contact</a>
-          </div>
-          <div class="header-nav-item">
-            <span class="nav-letter">f</span>
-            <a href="#coffee" class="nav-link">Coffee, Cat &amp; Notes</a>
-          </div>
-        </div>
+    <div class="header-hero">
+      <svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg" class="hero-visual" aria-label="Environmental health illustration">
+        <!-- Sky gradient -->
+        <defs>
+          <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#c8d5df" stop-opacity="0.4"/>
+            <stop offset="100%" stop-color="#dfe6ec" stop-opacity="0.2"/>
+          </linearGradient>
+          <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#b8c8b0" stop-opacity="0.3"/>
+            <stop offset="100%" stop-color="#a8bca0" stop-opacity="0.15"/>
+          </linearGradient>
+        </defs>
+        <rect width="800" height="400" fill="url(#sky)"/>
+        <!-- Rolling hills -->
+        <path d="M0 320 Q100 270 200 290 Q320 310 400 280 Q500 250 600 275 Q700 300 800 270 L800 400 L0 400Z" fill="url(#ground)"/>
+        <path d="M0 340 Q150 300 300 320 Q450 340 550 310 Q650 280 800 300 L800 400 L0 400Z" fill="#a8bca0" opacity="0.15"/>
+        <!-- Sun -->
+        <circle cx="600" cy="100" r="40" fill="#d4c8a8" opacity="0.25"/>
+        <circle cx="600" cy="100" r="55" fill="none" stroke="#d4c8a8" stroke-width="0.8" opacity="0.15"/>
+        <circle cx="600" cy="100" r="72" fill="none" stroke="#d4c8a8" stroke-width="0.5" opacity="0.1"/>
+        <!-- Trees -->
+        <line x1="150" y1="310" x2="150" y2="240" stroke="#7a8b7a" stroke-width="2.5" stroke-linecap="round"/>
+        <ellipse cx="150" cy="225" rx="22" ry="28" fill="#8fa89a" opacity="0.4"/>
+        <ellipse cx="140" cy="235" rx="16" ry="20" fill="#7a9a88" opacity="0.3"/>
+        <line x1="200" y1="300" x2="200" y2="245" stroke="#7a8b7a" stroke-width="2" stroke-linecap="round"/>
+        <ellipse cx="200" cy="232" rx="18" ry="22" fill="#8fa89a" opacity="0.35"/>
+        <line x1="120" y1="318" x2="120" y2="275" stroke="#7a8b7a" stroke-width="1.8" stroke-linecap="round"/>
+        <ellipse cx="120" cy="264" rx="14" ry="18" fill="#7a9a88" opacity="0.35"/>
+        <!-- Distant trees -->
+        <ellipse cx="500" cy="265" rx="12" ry="16" fill="#8fa89a" opacity="0.25"/>
+        <ellipse cx="530" cy="270" rx="10" ry="13" fill="#7a9a88" opacity="0.2"/>
+        <ellipse cx="680" cy="275" rx="11" ry="14" fill="#8fa89a" opacity="0.2"/>
+        <!-- Air flow lines -->
+        <path d="M50 150 Q120 140 180 155" fill="none" stroke="#9ab0c0" stroke-width="0.8" opacity="0.3"/>
+        <path d="M250 120 Q330 110 400 125" fill="none" stroke="#9ab0c0" stroke-width="0.8" opacity="0.25"/>
+        <path d="M420 160 Q500 148 560 162" fill="none" stroke="#9ab0c0" stroke-width="0.8" opacity="0.2"/>
+        <!-- Floating particles -->
+        <circle cx="100" cy="180" r="2" fill="#9ab0c0" opacity="0.25"/>
+        <circle cx="300" cy="140" r="1.5" fill="#9ab0c0" opacity="0.2"/>
+        <circle cx="450" cy="190" r="2" fill="#9ab0c0" opacity="0.2"/>
+        <circle cx="350" cy="170" r="1.5" fill="#b0c4a8" opacity="0.2"/>
+        <circle cx="550" cy="140" r="1.5" fill="#9ab0c0" opacity="0.15"/>
+        <circle cx="700" cy="180" r="2" fill="#b0c4a8" opacity="0.18"/>
+        <!-- Birds -->
+        <path d="M280 90 Q285 85 290 90" fill="none" stroke="#8a9aa8" stroke-width="1" opacity="0.3"/>
+        <path d="M310 80 Q314 76 318 80" fill="none" stroke="#8a9aa8" stroke-width="0.8" opacity="0.25"/>
+      </svg>
+      <div class="hero-overlay">
+        <h1 class="hero-name">Lanting Yang</h1>
+        <p class="hero-tagline">Pharmacoepidemiology &middot; Environmental Health &middot; Real-World Evidence</p>
       </div>
     </div>
+    <nav class="header-nav-bar">
+      <a href="#about">About Me</a>
+      <a href="#research">My Research</a>
+      <a href="#posts">Posts</a>
+      <a href="#grants">Grants &amp; Projects</a>
+      <a href="#contact">Contact</a>
+      <a href="#coffee">Coffee, Cat &amp; Notes</a>
+    </nav>
   </header>
 
   <section id="about" class="section">
@@ -61,10 +83,10 @@
         <h3>Lanting Yang, PhD, MPH</h3>
         <p>Postdoctoral Scholar, UC San Diego Skaggs School of Pharmacy and Pharmaceutical Sciences</p>
         <p>Incoming Assistant Professor, Department of Pharmaceutical Outcomes and Policy, University of Florida College of Pharmacy</p>
+        <p><em>Building real-world evidence to support safer medication use in complex environmental and social contexts.</em></p>
       </div>
       <div class="content-card">
         <p>I am a pharmacoepidemiologist whose research examines how medications, environmental stressors, and social vulnerability jointly shape health outcomes among older adults and patients with cardiometabolic diseases. My work integrates real-world data, environmental exposure measures, causal inference, and data science methods to generate evidence that can inform safer, more equitable medication use.</p>
-        <p><em>Building real-world evidence to support safer medication use in complex environmental and social contexts.</em></p>
       </div>
     </div>
   </section>
@@ -103,15 +125,27 @@
 
   <section id="posts" class="section">
     <h2><span class="heading-counter">C.</span> Posts</h2>
-    <div class="content-grid">
-      <div class="content-card post-card">
-        <h3>Honored to Receive the American Diabetes Association Postdoctoral Fellowship</h3>
-        <p>I am grateful to share that I have received a Postdoctoral Fellowship from the American Diabetes Association for my project, "Polypharmacy, Environmental Exposures, and Social Disadvantage in Type 2 Diabetes."</p>
-        <p>This project uses Medicare claims data linked with environmental exposure and social determinant measures to examine how medication burden, extreme heat, air pollution, and neighborhood-level disadvantage jointly influence clinical outcomes among individuals with type 2 diabetes.</p>
-      </div>
-      <div class="content-card post-card">
-        <p>This fellowship supports my broader research goal of developing an independent program in environmental pharmacoepidemiology, focused on generating real-world evidence for safer, more equitable, and climate-resilient medication use.</p>
-        <p>I am deeply grateful to my mentors, collaborators, and colleagues for their support, and to the American Diabetes Association for its support of this work.</p>
+    <div class="posts-feed">
+      <div class="social-post">
+        <div class="post-header">
+          <div class="post-avatar">LY</div>
+          <div class="post-meta">
+            <div class="post-author">Lanting Yang</div>
+            <div class="post-handle">Pharmacoepidemiologist &middot; Postdoctoral Scholar</div>
+          </div>
+        </div>
+        <div class="post-body">
+          <p><strong>Honored to Receive the American Diabetes Association Postdoctoral Fellowship</strong></p>
+          <p>I am grateful to share that I have received a Postdoctoral Fellowship from the American Diabetes Association for my project, "Polypharmacy, Environmental Exposures, and Social Disadvantage in Type 2 Diabetes."</p>
+          <p>This project uses Medicare claims data linked with environmental exposure and social determinant measures to examine how medication burden, extreme heat, air pollution, and neighborhood-level disadvantage jointly influence clinical outcomes among individuals with type 2 diabetes.</p>
+          <p>This fellowship supports my broader research goal of developing an independent program in environmental pharmacoepidemiology, focused on generating real-world evidence for safer, more equitable, and climate-resilient medication use.</p>
+          <p>I am deeply grateful to my mentors, collaborators, and colleagues for their support, and to the American Diabetes Association for its support of this work.</p>
+        </div>
+        <div class="post-footer">
+          <span class="post-reaction">&#9825; 128</span>
+          <span class="post-reaction">&#9998; 14 comments</span>
+          <span class="post-reaction">&#8635; 32 shares</span>
+        </div>
       </div>
     </div>
   </section>
