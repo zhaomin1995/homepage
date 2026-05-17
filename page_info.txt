@@ -1,0 +1,57 @@
+I would like to design a personal academic website for my transition to a tenure-track Assistant Professor position at the University of Florida College of Pharmacy.
+The website should feel professional, clean, warm, and approachable. It should present my academic identity as a pharmacoepidemiologist working at the intersection of medication safety, environmental health, real-world evidence, and health equity.
+The main navigation should include:
+About Me | My Research | Posts | Grants & Projects | Contact | Coffee, Cat & Notes
+The homepage should include an environmental-health-related visual, such as a calm image related to climate, trees, sunlight, air, or an urban environment. The image should relate to my research in environmental pharmacoepidemiology without appearing too dramatic or disaster-focused.
+About me
+Lanting Yang, PhD, MPH
+ Postdoctoral Scholar, UC San Diego Skaggs School of Pharmacy and Pharmaceutical Sciences
+ Incoming Assistant Professor, Department of Pharmaceutical Outcomes and Policy
+ University of Florida College of Pharmacy
+Building real-world evidence to support safer medication use in in complex environmental and social contexts.
+I am a pharmacoepidemiologist whose research examines how medications, environmental stressors, and social vulnerability jointly shape health outcomes among older adults and patients with cardiometabolic diseases. My work integrates real-world data, environmental exposure measures, causal inference, and data science methods to generate evidence that can inform safer, more equitable medication use.
+My Research
+Environmental Pharmacoepidemiology
+I study how environmental stressors, including extreme heat, wildfire smoke, and air pollution, affect clinical outcomes among patients with chronic cardiometabolic conditions. A major focus of my work is understanding whether medications or medication burden may modify patients? vulnerability to environmental-related risks.
+Related publications
+Real-World Medication Safety and Effectiveness
+I use large-scale real-world data to evaluate the safety and effectiveness of medications used in diabetes, cardiovascular disease, kidney disease, and aging populations. My work includes comparative effectiveness studies, treatment trajectory analyses, and medication safety evaluations using claims-based and linked datasets. This line of work includes studies on SGLT2 inhibitors, DPP-4 inhibitors, GLP-1 receptor agonists, oral anticoagulants, exposure to nephrotoxic medications, treatment adherence, and cardiovascular and renal outcomes.
+Related Publications
+Methods and Data Science
+My research applies and develops methods including target trial emulation, case-crossover designs, time-varying survival models, causal inference, machine learning, trajectory modeling, and claims-based phenotyping. I am also interested in using interpretable machine learning and natural language processing to improve risk prediction and evidence generation.
+Related publications
+Posts 
+Honored to Receive the American Diabetes Association Postdoctoral Fellowship
+I am grateful to share that I have received a Postdoctoral Fellowship from the American Diabetes Association for my project, ?Polypharmacy, Environmental Exposures, and Social Disadvantage in Type 2 Diabetes.?
+This project uses Medicare claims data linked with environmental exposure and social determinant measures to examine how medication burden, extreme heat, air pollution, and neighborhood-level disadvantage jointly influence clinical outcomes among individuals with type 2 diabetes.
+This fellowship supports my broader research goal of developing an independent program in environmental pharmacoepidemiology, focused on generating real-world evidence for safer, more equitable, and climate-resilient medication use.
+I am deeply grateful to my mentors, collaborators, and colleagues for their support, and to the American Diabetes Association for its support of this work.
+Grants & Projects
+Active Funding
+Polypharmacy, Environmental Exposures, and Social Disadvantage in Type 2 Diabetes
+American Diabetes Association Postdoctoral Fellowship
+ Role: Principal Investigator
+ Funding period: 2026?2028
+This project examines how medication burden, environmental exposures, and neighborhood-level disadvantage jointly influence clinical outcomes among older adults with type 2 diabetes. The study uses Medicare claims linked with environmental and social determinant data to identify populations who may face elevated medication-related risks under environmental and social stressors.
+Past Funding
+Effect of Extreme Heat and Wildfire Smoke on Health Outcomes and Costs in Vulnerable Populations with Cardiovascular Disease in the Western U.S.
+Skaggs Family Foundation
+Role: Multiple Principal Investigator
+Funding period: 2023?2025
+This project evaluated the health and economic impacts of extreme heat and wildfire smoke exposure among vulnerable populations with cardiovascular disease in the western United States. This work helped shape my broader research direction in environmental pharmacoepidemiology.
+
+
+Contact
+Lanting Yang, PhD, MPH
+ Postdoctoral Scholar
+ Skaggs School of Pharmacy and Pharmaceutical Sciences
+ University of California San Diego
+Incoming Assistant Professor
+ Department of Pharmaceutical Outcomes and Policy
+ University of Florida College of Pharmacy
+Email: layang@health.ucsd.edu
+Google Scholar: Lanting Yang
+ LinkedIn: https://www.linkedin.com/in/lanting-yang/
+
+Coffee, Cat & Notes
+
